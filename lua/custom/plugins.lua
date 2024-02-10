@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "luckasRanarison/tree-sitter-hyprlang",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+  },
+  {
     "folke/noice.nvim",
     event = "VeryLazy",
     opts = {
